@@ -74,15 +74,15 @@ def run_circle():
 def run_triangle():
     print('Triangle')
 
-    #run_bottom()
+    run_bottom()
     run_leftline()
     run_rightline()
     
     pass
 
 while True:
-    #run_circle()
-    #run_rectangle()
+    run_circle()
+    run_rectangle()
     run_triangle()
     break
 
