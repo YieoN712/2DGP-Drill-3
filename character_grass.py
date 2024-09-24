@@ -38,6 +38,8 @@ def run_left():
 
 def run_leftline():
     print('LeftLine')
+    for x in range(0,300,10):
+        draw_boy(x, x)
     pass
 
 def run_rightline():
@@ -70,7 +72,7 @@ def run_circle():
 def run_triangle():
     print('Triangle')
 
-    run_bottom()
+    #run_bottom()
     run_leftline()
     run_rightline()
     
