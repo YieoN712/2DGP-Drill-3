@@ -36,6 +36,14 @@ def run_left():
         draw_boy(10, y)
     pass
 
+def run_leftline():
+    print('LeftLine')
+    pass
+
+def run_rightline():
+    print('RightLine')
+    pass
+
 def run_rectangle():
     print('Rectangle')
 
@@ -60,6 +68,12 @@ def run_circle():
     pass
 
 def run_triangle():
+    print('Triangle')
+
+    run_bottom()
+    run_leftline()
+    run_rightline()
+    
     pass
 
 while True:
