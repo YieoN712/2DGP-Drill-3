@@ -38,12 +38,14 @@ def run_left():
 
 def run_leftline():
     print('LeftLine')
-    for x in range(0,300,10):
+    for x in range(0,400,10):
         draw_boy(x, x)
     pass
 
 def run_rightline():
     print('RightLine')
+    for x in range(400,0,-10):
+        draw_boy(800-x, x)
     pass
 
 def run_rectangle():
