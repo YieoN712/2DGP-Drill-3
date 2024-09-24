@@ -59,9 +59,13 @@ def run_circle():
     
     pass
 
+def run_triangle():
+    pass
+
 while True:
     #run_circle()
-    run_rectangle()
+    #run_rectangle()
+    run_triangle()
     break
 
 close_canvas()
